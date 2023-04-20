@@ -4,7 +4,6 @@ import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
 
 @Entity
-@DiscriminatorValue(value = "fish_data")
 public class Fish extends Animal{
     private String location;
     private int size;
