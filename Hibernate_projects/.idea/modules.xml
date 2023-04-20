@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../one-to-many-bidirectional/one-to-many-bidirectional.iml" filepath="$PROJECT_DIR$/../one-to-many-bidirectional/one-to-many-bidirectional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../one-to-many-unidirectional/one-to-many-unidirectional.iml" filepath="$PROJECT_DIR$/../one-to-many-unidirectional/one-to-many-unidirectional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../one-to-one-bidirectional/one-to-one-bidirectional.iml" filepath="$PROJECT_DIR$/../one-to-one-bidirectional/one-to-one-bidirectional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../one-to-one-unidirectional/one-to-one-unidirectional.iml" filepath="$PROJECT_DIR$/../one-to-one-unidirectional/one-to-one-unidirectional.iml" />
+    </modules>
+  </component>
+</project>
