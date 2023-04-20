@@ -12,17 +12,20 @@ public class Laptop {
     private String brand;
 
     //-------mapping---------
-    @OneToOne(mappedBy = "laptop")
+
+    @ManyToOne
+    @JoinColumn(name = "student_id")
     private Student student;
+
     //-------mapping---------
 
     public Laptop() {
     }
 
-    public Laptop(long laptopId, String brand, Student student) {
+
+    public Laptop(long laptopId, String brand) {
         this.laptopId = laptopId;
         this.brand = brand;
-        this.student = student;
     }
 
     public Student getStudent() {
