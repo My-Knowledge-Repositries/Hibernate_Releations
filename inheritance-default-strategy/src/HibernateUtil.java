@@ -1,6 +1,6 @@
-
-import entity.Course;
-import entity.Student;
+import entity.Animal;
+import entity.Cat;
+import entity.Fish;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.Metadata;
 import org.hibernate.boot.MetadataSources;
@@ -20,8 +20,9 @@ public class HibernateUtil {
                         .configure()
                         .build();
                 MetadataSources metadataSources = new MetadataSources(standardServiceRegistry)
-                        .addAnnotatedClass(Student.class)
-                        .addAnnotatedClass(Course.class);
+                        .addAnnotatedClass(Animal.class)
+                        .addAnnotatedClass(Cat.class)
+                        .addAnnotatedClass(Fish.class);
                 Metadata metadata = metadataSources.getMetadataBuilder().build();
                 sessionFactory = metadata.getSessionFactoryBuilder().build();
             }
